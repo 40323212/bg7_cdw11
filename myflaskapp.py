@@ -80,6 +80,8 @@ import users.b.g3.bg3_40123250_cdw11
 
 #bg6
 import users.b.g6.bg6_40323248
+#bg7
+import users.b.g7.bg7_40323212
 
 #ag100
 import users.a.g100.cdw13.a40123100
@@ -529,6 +531,8 @@ app.register_blueprint(users.a.g100.cdw13.a40123100.ag100)
 
 #bg6
 app.register_blueprint(users.b.g6.bg6_40323248.bg6_40323248)
+#bg7
+app.register_blueprint(users.b.g7.bg7_40323212.bg7_40323212)
 
 
 app.register_blueprint(users.b.g3.bg3_40123224_cdw11.b40123224)
