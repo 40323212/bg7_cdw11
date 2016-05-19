@@ -307,46 +307,46 @@ r1, s1 = mychain.basic_rot(x11, y11, '''+str(first_degree)+''')
  
  
 </t>
-<t tx="leo.20160519154619.13">@bg11.route('/a')
+<t tx="leo.20160519154619.13">@bg7_40323212.route('/a')
 def draw_a():
     return head_str + chain_str + a(0, 0) + tail_str
  
  
 </t>
-<t tx="leo.20160519154619.14">@bg11.route('/b')
+<t tx="leo.20160519154619.14">@bg7_40323212.route('/b')
 def draw_b():
    # 每個橫向字元距離為 65 pixels, 上下字距則為 110 pixels
     return head_str + chain_str + b(0+65, 0) + tail_str
  
  
 </t>
-<t tx="leo.20160519154619.15">@bg11.route('/c')
+<t tx="leo.20160519154619.15">@bg7_40323212.route('/c')
 def draw_c():
     # 每個橫向字元距離為 65 pixels
     return head_str + chain_str + c(0+65*2, 0) + tail_str
  
  
 </t>
-<t tx="leo.20160519154619.16">@bg11.route('/d')
+<t tx="leo.20160519154619.16">@bg7_40323212.route('/d')
 def draw_d():
     return head_str + chain_str + d(0+65*3, 0) + tail_str
  
  
 </t>
-<t tx="leo.20160519154619.17">@bg11.route('/ab')
+<t tx="leo.20160519154619.17">@bg7_40323212.route('/ab')
 def draw_ab():
     #return head_str + chain_str + a(0, 0) + b(0+65, 0) + tail_str
     return head_str + chain_str + a(0, 0) + b(0, 0-110) + tail_str
  
  
 </t>
-<t tx="leo.20160519154619.18">@bg11.route('/ac')
+<t tx="leo.20160519154619.18">@bg7_40323212.route('/ac')
 def draw_ac():
     return head_str + chain_str + a(0, 0) + c(0+65, 0) + tail_str
  
  
 </t>
-<t tx="leo.20160519154619.19">@bg11.route('/bc')
+<t tx="leo.20160519154619.19">@bg7_40323212.route('/bc')
 def draw_bc():
     return head_str + chain_str + b(0, 0) + c(0+65, 0) + tail_str
  
@@ -356,13 +356,13 @@ def draw_bc():
 @tabwidth -4
 @others
 </t>
-<t tx="leo.20160519154619.20">@bg11.route('/abc')
+<t tx="leo.20160519154619.20">@bg7_40323212.route('/abc')
 def draw_abc():
     return head_str + chain_str + a(0, 0) + b(0+65, 0) + c(0+65*2, 0) + tail_str
  
  
 </t>
-<t tx="leo.20160519154619.21">@bg11.route('/aaaa')
+<t tx="leo.20160519154619.21">@bg7_40323212.route('/aaaa')
 def draw_aaaa():
     outstring = head_str + chain_str
     scale = 2
@@ -374,58 +374,58 @@ def draw_aaaa():
  
  
 </t>
-<t tx="leo.20160519154619.22">@bg11.route('/badc')
+<t tx="leo.20160519154619.22">@bg7_40323212.route('/badc')
 def draw_badc():
     return head_str + chain_str + b(0, 0) + a(0+65, 0) + d(0+65*2, 0) + c(0+65*3, 0) + tail_str
  
  
 </t>
-<t tx="leo.20160519154619.23">@bg11.route('/abcd')
+<t tx="leo.20160519154619.23">@bg7_40323212.route('/abcd')
 def draw_abcd():
     #return head_str + chain_str + a(0, 0) + b(0+65, 0) + c(0+65*2, 0) + d(0+65*3, 0) + tail_str
     return head_str + chain_str + a(0, 110) + b(0, 110-110) + c(0, 110-110*2) + d(0, 110-110*3) + tail_str
  
  
 </t>
-<t tx="leo.20160519154619.24">@bg11.route('/circle')
+<t tx="leo.20160519154619.24">@bg7_40323212.route('/circle')
 def drawcircle():
     return head_str + chain_str + circle(0, 0) + tail_str
  
  
 </t>
-<t tx="leo.20160519154619.25">@bg11.route('/circle1/&lt;degree&gt;', defaults={'x': 0, 'y': 0})
-@bg11.route('/circle1/&lt;x&gt;/&lt;degree&gt;', defaults={'y': 0})
-@bg11.route('/circle1/&lt;x&gt;/&lt;y&gt;/&lt;degree&gt;')
-#@bg11.route('/circle1/&lt;int:x&gt;/&lt;int:y&gt;/&lt;int:degree&gt;')
+<t tx="leo.20160519154619.25">@bg7_40323212.route('/circle1/&lt;degree&gt;', defaults={'x': 0, 'y': 0})
+@bg7_40323212.route('/circle1/&lt;x&gt;/&lt;degree&gt;', defaults={'y': 0})
+@bg7_40323212.route('/circle1/&lt;x&gt;/&lt;y&gt;/&lt;degree&gt;')
+#@bg7.route('/circle1/&lt;int:x&gt;/&lt;int:y&gt;/&lt;int:degree&gt;')
 def drawcircle1(x,y,degree):
     return head_str + chain_str + circle1(int(x), int(y), int(degree)) + tail_str
  
  
 </t>
-<t tx="leo.20160519154619.26">@bg11.route('/circle2/&lt;degree&gt;', defaults={'x': 0, 'y': 0})
-@bg11.route('/circle2/&lt;x&gt;/&lt;degree&gt;', defaults={'y': 0})
-@bg11.route('/circle2/&lt;x&gt;/&lt;y&gt;/&lt;degree&gt;')
-#@bg11.route('/circle2/&lt;int:x&gt;/&lt;int:y&gt;/&lt;int:degree&gt;')
+<t tx="leo.20160519154619.26">@bg7_40323212.route('/circle2/&lt;degree&gt;', defaults={'x': 0, 'y': 0})
+@bg7_40323212.route('/circle2/&lt;x&gt;/&lt;degree&gt;', defaults={'y': 0})
+@bg7_40323212.route('/circle2/&lt;x&gt;/&lt;y&gt;/&lt;degree&gt;')
+#@bg7.route('/circle2/&lt;int:x&gt;/&lt;int:y&gt;/&lt;int:degree&gt;')
 def drawcircle2(x,y,degree):
     return head_str + chain_str + circle2(int(x), int(y), int(degree)) + tail_str
  
  
 </t>
-<t tx="leo.20160519154619.27">@bg11.route('/twocircle/&lt;x&gt;/&lt;y&gt;')
-@bg11.route('/twocircle', defaults={'x':0, 'y':0})
+<t tx="leo.20160519154619.27">@bg7_40323212.route('/twocircle/&lt;x&gt;/&lt;y&gt;')
+@bg7_40323212.route('/twocircle', defaults={'x':0, 'y':0})
 def drawtwocircle(x,y):
     return head_str + chain_str + twocircle(int(x), int(y)) + tail_str
  
  
 </t>
-<t tx="leo.20160519154619.28">@bg11.route('/eighteenthirty/&lt;x&gt;/&lt;y&gt;')
-@bg11.route('/eighteenthirty', defaults={'x':0, 'y':0})
+<t tx="leo.20160519154619.28">@bg7_40323212.route('/eighteenthirty/&lt;x&gt;/&lt;y&gt;')
+@bg7_40323212.route('/eighteenthirty', defaults={'x':0, 'y':0})
 def draweithteenthirdy(x,y):
     return head_str + chain_str + eighteenthirty(int(x), int(y)) + tail_str
  
  
 </t>
-<t tx="leo.20160519154619.29">@bg11.route('/snap')
+<t tx="leo.20160519154619.29">@bg7_40323212.route('/snap')
 # http://svg.dabbles.info/snaptut-base
 def snap():
     outstring = '''
@@ -507,7 +507,7 @@ document['tux'].bind('mouseleave', hoverout)
 </t>
 <t tx="leo.20160519154619.3">from flask import Blueprint, request
  
-bg7 = Blueprint('bg7', __name__, url_prefix='/bg7', template_folder='templates')
+bg7_40323212 = Blueprint('bg7_40323212', __name__, url_prefix='/bg7_40323212', template_folder='templates')
  
 head_str = '''
 &lt;!DOCTYPE html&gt;
@@ -643,7 +643,7 @@ class chain():
 '''
  
 </t>
-<t tx="leo.20160519154619.30">@bg11.route('/snap_link')
+<t tx="leo.20160519154619.30">@bg7_40323212.route('/snap_link')
 # http://svg.dabbles.info/
 def snap_link():
     outstring = '''
@@ -726,7 +726,7 @@ g4.animate( { 'transform' : 'r360,25,25' },4000)
  
  
 </t>
-<t tx="leo.20160519154619.31">@bg11.route('/snap_gear')
+<t tx="leo.20160519154619.31">@bg7_40323212.route('/snap_gear')
 def snap_gear():
     outstring = '''
 &lt;!DOCTYPE html&gt;
@@ -771,37 +771,37 @@ s.line(0, 0, 100, 100).attr({ 'fill': "silver", 'stroke': "black", 'strokeWidth'
 @others
 if __name__ == "__main__":
     app.run()
-app.register_blueprint(users.a.g4.ag4_40323138.ag4_40323138)
-app.register_blueprint(users.a.g10.ag10_40323141_task1.ag10_40323141)    
-app.register_blueprint(users.a.g9.ag9_40323132task.ag9_40323132)
-app.register_blueprint(users.a.g10.ag10_40323139.ag10_40323139)
-app.register_blueprint(users.a.g5.ag5_40323113task1.ag5_40323113)
-app.register_blueprint(users.a.g5.ag5_40123145task1.ag5_40123145)
-app.register_blueprint(users.a.g8.ag8_40323131_task1.ag8_40323131)
-app.register_blueprint(users.a.g4.ag4_40323138_task2bacd.ag4_40323138bacd)
-app.register_blueprint(users.a.g4.ag4_40323138_task3abcd.ag4_40323138task3)
-app.register_blueprint(users.a.g8.ag8_40323123.ag8_40323123)
-app.register_blueprint(users.a.g10.ag10_40323129_task1.ag10_40323129)
-app.register_blueprint(users.a.g2.ag2_40323120.ag2_40323120)
-app.register_blueprint(users.a.g1.ag1_40323105.ag1_40323105)
+#app.register_blueprint(users.a.g4.ag4_40323138.ag4_40323138)
+#app.register_blueprint(users.a.g10.ag10_40323141_task1.ag10_40323141)    
+#app.register_blueprint(users.a.g9.ag9_40323132task.ag9_40323132)
+#app.register_blueprint(users.a.g10.ag10_40323139.ag10_40323139)
+#app.register_blueprint(users.a.g5.ag5_40323113task1.ag5_40323113)
+#app.register_blueprint(users.a.g5.ag5_40123145task1.ag5_40123145)
+#app.register_blueprint(users.a.g8.ag8_40323131_task1.ag8_40323131)
+#app.register_blueprint(users.a.g4.ag4_40323138_task2bacd.ag4_40323138bacd)
+#app.register_blueprint(users.a.g4.ag4_40323138_task3abcd.ag4_40323138task3)
+#app.register_blueprint(users.a.g8.ag8_40323123.ag8_40323123)
+#app.register_blueprint(users.a.g10.ag10_40323129_task1.ag10_40323129)
+#app.register_blueprint(users.a.g2.ag2_40323120.ag2_40323120)
+#app.register_blueprint(users.a.g1.ag1_40323105.ag1_40323105)
 
 
 
-app.register_blueprint(users.b.g9.bg9_40323250.bg9_40323250)
+#app.register_blueprint(users.b.g9.bg9_40323250.bg9_40323250)
 #bg1
-app.register_blueprint(users.b.g1.bg1_40123156.bg1_40123156)
-app.register_blueprint(users.b.g1.bg1_40123156_2.bg1_40123156_2)
-app.register_blueprint(users.b.g1.bg1_40123144.bg1_40123144)
-app.register_blueprint(users.b.g1.bg1_40123144_2.bg40123144)
+#app.register_blueprint(users.b.g1.bg1_40123156.bg1_40123156)
+#app.register_blueprint(users.b.g1.bg1_40123156_2.bg1_40123156_2)
+#app.register_blueprint(users.b.g1.bg1_40123144.bg1_40123144)
+#app.register_blueprint(users.b.g1.bg1_40123144_2.bg40123144)
 #app.register_blueprint(users.b.g1.bg1_40123131.bg1_40123131)
 #app.register_blueprint(users.b.g1.bg1_40123131_2.bg40123131)
-app.register_blueprint(users.b.g1.b40123131_cdw11.bg1_40123131)
-app.register_blueprint(users.b.g1.b40123131_cdw12.bg1)
+#app.register_blueprint(users.b.g1.b40123131_cdw11.bg1_40123131)
+#app.register_blueprint(users.b.g1.b40123131_cdw12.bg1)
 
-app.register_blueprint(users.b.g1.b40123131_cdw11.bg1_40123131)
-app.register_blueprint(users.b.g1.b40123131_cdw12.bg1)
-app.register_blueprint(users.b.g1.bg1_40123134.bg1_40123134)
-app.register_blueprint(users.b.g1.bg1_40123134_2.bg1_40123134_2)
+#app.register_blueprint(users.b.g1.b40123131_cdw11.bg1_40123131)
+#app.register_blueprint(users.b.g1.b40123131_cdw12.bg1)
+#app.register_blueprint(users.b.g1.bg1_40123134.bg1_40123134)
+#app.register_blueprint(users.b.g1.bg1_40123134_2.bg1_40123134_2)
 
 
 #app.register_blueprint(users.b.g1.bg1_40123131.bg1_40123131)
@@ -809,34 +809,34 @@ app.register_blueprint(users.b.g1.bg1_40123134_2.bg1_40123134_2)
 
 
 #bg2
-app.register_blueprint(users.b.g2.bg2_40123235.bg2_40123235)
-app.register_blueprint(users.b.g2.bg2_40123202.bg2_40123202)
-app.register_blueprint(users.b.g2.bg2_40123235_cdw12.b40123235)
-app.register_blueprint(users.b.g2.bg2_40123202_1.b40123202)
+#app.register_blueprint(users.b.g2.bg2_40123235.bg2_40123235)
+#app.register_blueprint(users.b.g2.bg2_40123202.bg2_40123202)
+#app.register_blueprint(users.b.g2.bg2_40123235_cdw12.b40123235)
+#app.register_blueprint(users.b.g2.bg2_40123202_1.b40123202)
 #bg4
-app.register_blueprint(users.b.g4.bg4_40323203.bg4_40323203)
-app.register_blueprint(users.b.g4.bg4_40323205.bg4_40323205)
-app.register_blueprint(users.b.g4.bg4_40323208.bg4_40323208)
+#app.register_blueprint(users.b.g4.bg4_40323203.bg4_40323203)
+#app.register_blueprint(users.b.g4.bg4_40323205.bg4_40323205)
+#app.register_blueprint(users.b.g4.bg4_40323208.bg4_40323208)
 #bg8
-app.register_blueprint(users.b.g8.bg8_40323213.bg8_40323213)
-app.register_blueprint(users.b.g4.bg4_40323202.bg4_40323202)
-app.register_blueprint(users.b.g4.b40323201_cdw11.b40323201)
+#app.register_blueprint(users.b.g8.bg8_40323213.bg8_40323213)
+#app.register_blueprint(users.b.g4.bg4_40323202.bg4_40323202)
+#app.register_blueprint(users.b.g4.b40323201_cdw11.b40323201)
 #bg5
-app.register_blueprint(users.b.g5.b40323204_cdw11_1.bg5_40323204_1)
+#app.register_blueprint(users.b.g5.b40323204_cdw11_1.bg5_40323204_1)
 #app.register_blueprint(users.b.g5.b40323206_cdw11_1.bg5_40323206_1)
-app.register_blueprint(users.b.g5.b40323206_cdw11_2.bg5_40323206_2)
+#app.register_blueprint(users.b.g5.b40323206_cdw11_2.bg5_40323206_2)
 #bg11
-app.register_blueprint(users.b.g11.bg11_40323245.bg11_40323245)
-app.register_blueprint(users.b.g11.bg11_40323252.bg11_40323252)
+#app.register_blueprint(users.b.g11.bg11_40323245.bg11_40323245)
+#app.register_blueprint(users.b.g11.bg11_40323252.bg11_40323252)
 #bg101
-app.register_blueprint(users.b.g101.b40123200.bg101)
+#app.register_blueprint(users.b.g101.b40123200.bg101)
 
 #ag8
-app.register_blueprint(users.a.g8.a40323143.ag8_40323143)
-app.register_blueprint(users.a.g8.a40323154.ag8_40323154)
+#app.register_blueprint(users.a.g8.a40323143.ag8_40323143)
+#app.register_blueprint(users.a.g8.a40323154.ag8_40323154)
 #ag10
-app.register_blueprint(users.a.g10.a40323139.ag10_40323139_1)
-app.register_blueprint(users.a.g10.a40323141.ag10_40323141_1)
+#app.register_blueprint(users.a.g10.a40323139.ag10_40323139_1)
+#app.register_blueprint(users.a.g10.a40323141.ag10_40323141_1)
 
 #ag100
 app.register_blueprint(users.a.g100.cdw13.a40123100.ag100)
@@ -847,14 +847,14 @@ app.register_blueprint(users.a.g100.cdw13.a40123100.ag100)
 #app.register_blueprint(users.b.g3.bg3_40123250.bg3_40123242)
 
 #bg6
-app.register_blueprint(users.b.g6.bg6_40323248.bg6_40323248)
+#app.register_blueprint(users.b.g6.bg6_40323248.bg6_40323248)
 #bg7
 app.register_blueprint(users.b.g7.bg7_40323212.bg7_40323212)
 
 
-app.register_blueprint(users.b.g3.bg3_40123224_cdw11.b40123224)
-app.register_blueprint(users.b.g3.bg3_40123250.bg3_40123250)
-app.register_blueprint(users.b.g3.bg3_40123250_cdw11.b40123250)
+#app.register_blueprint(users.b.g3.bg3_40123224_cdw11.b40123224)
+#app.register_blueprint(users.b.g3.bg3_40123250.bg3_40123250)
+#app.register_blueprint(users.b.g3.bg3_40123250_cdw11.b40123250)
 #app.register_blueprint(users.b.g3.bg3_40123250.bg3_40123242)
 
 
@@ -868,81 +868,81 @@ import math
 import os
 # init.py 為自行建立的起始物件
 import init
-import users.a.g1.ag1_40323105
-import users.a.g2.ag2_40323120
-import users.a.g10.ag10_40323129_task1
-import users.a.g10.ag10_40323141_task1
-import users.a.g10.ag10_40323139
-import users.a.g9.ag9_40323132task
-import users.a.g5.ag5_40323113task1
-import users.a.g5.ag5_40123145task1
-import users.a.g4.ag4_40323138
-import users.a.g4.ag4_40323138_task2bacd
-import users.a.g4.ag4_40323138_task3abcd
-import users.a.g8.ag8_40323131_task1
-import users.b.g9.bg9_40323250
-import users.a.g8.ag8_40323123
+#import users.a.g1.ag1_40323105
+#import users.a.g2.ag2_40323120
+#import users.a.g10.ag10_40323129_task1
+#import users.a.g10.ag10_40323141_task1
+#import users.a.g10.ag10_40323139
+#import users.a.g9.ag9_40323132task
+#import users.a.g5.ag5_40323113task1
+#import users.a.g5.ag5_40123145task1
+#import users.a.g4.ag4_40323138
+#import users.a.g4.ag4_40323138_task2bacd
+#import users.a.g4.ag4_40323138_task3abcd
+#import users.a.g8.ag8_40323131_task1
+#import users.b.g9.bg9_40323250
+#import users.a.g8.ag8_40323123
 #bg1
-import users.b.g1.bg1_40123156
-import users.b.g1.bg1_40123156_2
-import users.b.g1.bg1_40123144
-import users.b.g1.bg1_40123144_2
+#import users.b.g1.bg1_40123156
+#import users.b.g1.bg1_40123156_2
+#import users.b.g1.bg1_40123144
+#import users.b.g1.bg1_40123144_2
 #import users.b.g1.bg1_40123131
 #import users.b.g1.bg1_40123131_2
-import users.b.g1.b40123131_cdw11
-import users.b.g1.b40123131_cdw12
+#import users.b.g1.b40123131_cdw11
+#import users.b.g1.b40123131_cdw12
 
-import users.b.g1.b40123131_cdw11
-import users.b.g1.b40123131_cdw12
-import users.b.g1.bg1_40123134
-import users.b.g1.bg1_40123134_2
+#import users.b.g1.b40123131_cdw11
+#import users.b.g1.b40123131_cdw12
+#import users.b.g1.bg1_40123134
+#import users.b.g1.bg1_40123134_2
 #bg2
-import users.b.g2.bg2_40123235
-import users.b.g2.bg2_40123235_cdw12
-import users.b.g2.bg2_40123202
-import users.b.g2.bg2_40123202_1
+#import users.b.g2.bg2_40123235
+#import users.b.g2.bg2_40123235_cdw12
+#import users.b.g2.bg2_40123202
+#import users.b.g2.bg2_40123202_1
 #bg4
-import users.b.g4.bg4_40323203
-import users.b.g4.bg4_40323205
-import users.b.g4.bg4_40323208
+#import users.b.g4.bg4_40323203
+#import users.b.g4.bg4_40323205
+#import users.b.g4.bg4_40323208
 #bg8
-import users.b.g8.bg8_40323213
-import users.b.g4.bg4_40323202
-import users.b.g4.b40323201_cdw11
+#import users.b.g8.bg8_40323213
+#import users.b.g4.bg4_40323202
+#import users.b.g4.b40323201_cdw11
 
 #bg5
 #import users.b.g5.b40323206_cdw11_1
-import users.b.g5.b40323204_cdw11_1
+#import users.b.g5.b40323204_cdw11_1
 
 
 #bg5
 #import users.b.g5.b40323206_cdw11_1
-import users.b.g5.b40323204_cdw11_1
-import users.b.g5.b40323204_cdw11_2
-import users.b.g5.b40323206_cdw11_2
+#import users.b.g5.b40323204_cdw11_1
+#import users.b.g5.b40323204_cdw11_2
+#import users.b.g5.b40323206_cdw11_2
 #bg11
-import users.b.g11.bg11_40323245
-import users.b.g11.bg11_40323252
+#import users.b.g11.bg11_40323245
+#import users.b.g11.bg11_40323252
 #bg101
-import users.b.g101.b40123200
+#import users.b.g101.b40123200
 #ag8
-import users.a.g8.a40323143
-import users.a.g8.a40323154
+#import users.a.g8.a40323143
+#import users.a.g8.a40323154
 #ag10
-import users.a.g10.a40323139
-import users.a.g10.a40323141
+#import users.a.g10.a40323139
+#import users.a.g10.a40323141
 #bg3
 #import users.b.g3.b40123224
 #import users.b.g3.b40123250
 #import users.b.g3.b40123242
-import users.b.g3.bg3_40123224
-import users.b.g3.bg3_40123224_cdw11
-import users.b.g3.bg3_40123250
-import users.b.g3.bg3_40123250_cdw11
+#import users.b.g3.bg3_40123224
+#import users.b.g3.bg3_40123224_cdw11
+#import users.b.g3.bg3_40123250
+#import users.b.g3.bg3_40123250_cdw11
 #import users.b.g3.b40123242
 
 #bg6
-import users.b.g6.bg6_40323248
+#import users.b.g6.bg6_40323248
 #bg7
 import users.b.g7.bg7_40323212
 
