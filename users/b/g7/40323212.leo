@@ -22,7 +22,7 @@
 </v>
 <v t="leo.20160519154611.9" a="E"><vh>@path content/b/g7</vh>
 <v t="leo.20160519154611.10"><vh>@edit 40323212-eighteenthirty.md</vh></v>
-<v t="leo.20160623101418.1"><vh>@edit 40323212-threegears.md</vh></v>
+<v t="leo.20160623101418.1"><vh>@edit 40323212-fourgears.md</vh></v>
 <v t="leo.20160623101422.1"><vh>@edit 40323212_期末報告.md</vh></v>
 </v>
 </v>
@@ -61,7 +61,7 @@
 <v t="leo.20160519154619.31"><vh>snap_gear</vh></v>
 </v>
 <v t="leo.20160519154619.32"><vh>@edit bg7_40323212_2.py</vh></v>
-<v t="leo.20160519154619.33"><vh>@path ./../../../</vh>
+<v t="leo.20160519154619.33" a="E"><vh>@path ./../../../</vh>
 <v t="leo.20160519154619.34" a="E"><vh>@clean myflaskapp.py</vh>
 <v t="leo.20160519154619.35"><vh>myflaskapp declarations</vh></v>
 <v t="leo.20160519154619.36"><vh>index</vh></v>
@@ -83,7 +83,7 @@
 </v>
 </v>
 </v>
-<v t="leo.20160623134417.2" a="E"><vh>Recovered Nodes</vh>
+<v t="leo.20160623134417.2"><vh>Recovered Nodes</vh>
 <v t="leo.20160623134417.3"><vh>Recovered node "threegears" from @clean bg7_40323212.py</vh>
 <v t="leo.20160623134417.4"><vh>old:threegears</vh></v>
 <v t="leo.20160623134417.5"><vh>new:threegears</vh></v>
@@ -92,22 +92,6 @@
 </vnodes>
 <tnodes>
 <t tx="leo.20160519154611.1"></t>
-<t tx="leo.20160519154611.10">@language md
-Title: 40323212-eighteenthirty
-Category: bg7
-Tags: 40323212
-Author: 40323212
-
-cdw11內容規畫 :  
-&lt;!-- PELICAN_END_SUMMARY --&gt;
-&lt;h3&gt;自行車傳動 2D 鏈條繪圖 (二)&lt;/h3&gt;
-&lt;img src=""&gt;
-&lt;br/&gt;
-&lt;h2&gt;心得&lt;/h2&gt;
-&lt;h3&gt;鍊與鍊之間配合比較困難，角度跟距離容易產生誤差，需要慢慢測試。&lt;/h3&gt;
-&lt;br/&gt;
-&lt;h2&gt;自評分數&lt;/h2&gt;
-&lt;h3&gt;60分&lt;/h3&gt;</t>
 <t tx="leo.20160519154611.2"></t>
 <t tx="leo.20160519154611.4"></t>
 <t tx="leo.20160519154611.5"></t>
@@ -638,9 +622,7 @@ class chain():
             cgo.render(basic1, x1, y1, self.scale, 0)
  
         return x2, y2
-'''
- 
-</t>
+'''</t>
 <t tx="leo.20160519154619.30">@bg7_40323212.route('/snap_link')
 # http://svg.dabbles.info/
 def snap_link():
@@ -849,6 +831,7 @@ app.register_blueprint(users.a.g100.cdw13.a40123100.ag100)
 #app.register_blueprint(users.b.g6.bg6_40323248.bg6_40323248)
 #bg7
 app.register_blueprint(users.b.g7.bg7_40323212.bg7_40323212)
+app.register_blueprint(users.b.g7.bg7_40323212_2.bg7_40323212_2)
 
 
 #app.register_blueprint(users.b.g3.bg3_40123224_cdw11.b40123224)
@@ -944,6 +927,7 @@ import init
 #import users.b.g6.bg6_40323248
 #bg7
 import users.b.g7.bg7_40323212
+import users.b.g7.bg7_40323212_2
 
 #ag100
 import users.a.g100.cdw13.a40123100
@@ -1487,40 +1471,6 @@ x1, y1 = mychain.basic_rot('''+str(x)+","+str(y)+", "+str(first_degree)+''')
  
  
 </t>
-<t tx="leo.20160623101418.1">@language md
-Title: 40323212-threegears
-Category: bg7
-Tags: 40323212
-Author: 40323212
-
-cdw11內容規畫 :  
-&lt;!-- PELICAN_END_SUMMARY --&gt;
-&lt;h3&gt;網際 2D 正齒輪傳動囓合繪圖&lt;/h3&gt;
-&lt;img src=""&gt;
-&lt;br/&gt;
-&lt;h2&gt;心得&lt;/h2&gt;
-&lt;h3&gt;各齒輪之間必須互相配合，用180-180/n3+(180-180/n2)*n2/n3)公式算齒輪的轉動角度。&lt;/h3&gt;
-&lt;br/&gt;
-&lt;h2&gt;自評分數&lt;/h2&gt;
-&lt;h3&gt;60分&lt;/h3</t>
-<t tx="leo.20160623101422.1">@language md
-Title: 40323212_期末報告
-Category: bg7
-Tags: 40323212
-Author: 40323212
-
-cdw11內容規畫 :  
-&lt;!-- PELICAN_END_SUMMARY --&gt;
-&lt;h3&gt;Onshape3D齒輪傳動&lt;/h3&gt;
-利用Onshape的功能可直接呼叫齒輪，再設定變數。
-&lt;/br&gt;
-&lt;img src=""&gt;  
-&lt;/br&gt;
-
-&lt;h3&gt;心得&lt;/h3&gt;
-&lt;h4&gt;期中之後的這幾周，對於在畫布上的2D繪圖也漸漸熟悉，齒輪跟鍊條的配合需要許多條件來拘束，在用onshape組合齒輪，每個齒輪的模數需相同，算齒輪之間的中心距，齒輪干涉時，需要算每個齒輪的角度才能相切到。&lt;/h4&gt;
-&lt;h2&gt;自評分數&lt;/h2&gt;
-&lt;h3&gt;60分&lt;/h3&gt;</t>
 <t tx="leo.20160623134417.2"></t>
 <t tx="leo.20160623134417.3">(uncached) leo.20160623102519.1
 Diff...

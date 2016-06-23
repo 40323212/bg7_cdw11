@@ -134,7 +134,6 @@ class chain():
  
         return x2, y2
 '''
- 
 # 傳繪 A 函式內容
 def a(x, y, scale=1, color="green"):
     outstring = '''
