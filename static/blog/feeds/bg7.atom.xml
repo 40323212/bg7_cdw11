@@ -1,36 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>CDW11 網頁 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/bg7.atom.xml" rel="self"></link><id>./</id><updated>2016-06-23T15:33:06+08:00</updated><entry><title>40323212-fourgears</title><link href="./40323212-fourgears.html" rel="alternate"></link><updated>2016-06-23T15:33:06+08:00</updated><author><name>40323212</name></author><id>tag:,2016-06-23:./40323212-fourgears.html</id><summary type="html">&lt;p&gt;cdw11內容規畫 :&lt;br /&gt;
-
-&lt;h3&gt;網際 2D 正齒輪傳動囓合繪圖&lt;/h3&gt;
-&lt;img src="http://imgur.com/CoF45wk"&gt;
-&lt;br/&gt;
-&lt;h2&gt;心得&lt;/h2&gt;
-&lt;h3&gt;各齒輪之間必須互相配合，用180-180/n3+(180-180/n2)*n2/n3)公式算齒輪的轉動角度。&lt;/h3&gt;
-&lt;br/&gt;
-&lt;h2&gt;自評分數&lt;/h2&gt;
-&lt;h3&gt;60分&amp;lt;/h3&lt;/p&gt;</summary><category term="40323212"></category></entry><entry><title>40323212_期末報告</title><link href="./40323212_qi-mo-bao-gao.html" rel="alternate"></link><updated>2016-06-23T15:20:18+08:00</updated><author><name>40323212</name></author><id>tag:,2016-06-23:./40323212_qi-mo-bao-gao.html</id><summary type="html">&lt;p&gt;cdw11內容規畫 :&lt;br /&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>CDW11 網頁 (虎尾科大MDE)</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/" rel="alternate"></link><link href="http://cdw11-ag100.rhcloud.com/static/blog/feeds/bg7.atom.xml" rel="self"></link><id>http://cdw11-ag100.rhcloud.com/static/blog/</id><updated>2016-06-23T20:31:52+08:00</updated><entry><title>40323212_期末報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323212_qi-mo-bao-gao.html" rel="alternate"></link><updated>2016-06-23T20:31:52+08:00</updated><author><name>40323212</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-23:static/blog/40323212_qi-mo-bao-gao.html</id><summary type="html">&lt;p&gt;cdw11內容規畫 :&lt;br /&gt;
 
 &lt;h3&gt;Onshape3D齒輪傳動&lt;/h3&gt;
 利用Onshape的功能可直接呼叫齒輪，再設定變數。
 &lt;/br&gt;
-&lt;img src="http://imgur.com/ADXqW6A"&gt;&lt;br /&gt;
+&lt;img src="http://imgur.com/N5anFAV.png"width="100%" /&gt;
 &lt;/br&gt;
-&lt;img src="http://imgur.com/GUD1o9S"&gt; 
+&lt;img src="http://imgur.com/RsfJ0w8.png"width="100%" /&gt;
 &lt;/br&gt;
 &lt;h3&gt;自行車傳動 2D 鏈條繪圖&lt;/h3&gt;
 將老師給的鏈條程式改成垂直
 &lt;/br&gt;
-&lt;img src="http://imgur.com/osTNM8u"&gt;&lt;br /&gt;
+&lt;img src="http://imgur.com/WvsfdAl.png"width="100%" /&gt;
 &lt;/br&gt;
 &lt;h3&gt;網際 2D 正齒輪傳動囓合繪圖&lt;/h3&gt;
 把3個齒輪增加至4個齒輪
 &lt;/br&gt;
-&lt;img src="http://imgur.com/CoF45wk"&gt;&lt;br /&gt;
+&lt;img src="http://imgur.com/exL6WL2.png"width="100%" /&gt;
 &lt;/br&gt;
 &lt;h3&gt;心得&lt;/h3&gt;
 &lt;h4&gt;期中之後的這幾周，對於在畫布上的2D繪圖也漸漸熟悉，齒輪跟鍊條的配合需要許多條件來拘束，在用onshape組合齒輪，每個齒輪的模數需相同，算齒輪之間的中心距，齒輪干涉時，需要算每個齒輪的角度才能相切到。&lt;/h4&gt;
 &lt;h2&gt;自評分數&lt;/h2&gt;
-&lt;h3&gt;60分&lt;/h3&gt;&lt;/p&gt;</summary><category term="40323212"></category></entry><entry><title>40323212-threegears</title><link href="./40323212-threegears.html" rel="alternate"></link><updated>2016-06-23T15:20:18+08:00</updated><author><name>40323212</name></author><id>tag:,2016-06-23:./40323212-threegears.html</id><summary type="html">&lt;p&gt;cdw11內容規畫 :&lt;br /&gt;
+&lt;h3&gt;60分&lt;/h3&gt;&lt;/p&gt;</summary><category term="40323212"></category></entry><entry><title>40323212-threegears</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323212-threegears.html" rel="alternate"></link><updated>2016-06-23T20:31:52+08:00</updated><author><name>40323212</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-23:static/blog/40323212-threegears.html</id><summary type="html">&lt;p&gt;cdw11內容規畫 :&lt;br /&gt;
 
 &lt;h3&gt;網際 2D 正齒輪傳動囓合繪圖&lt;/h3&gt;
 &lt;img src=""&gt;
@@ -39,10 +30,19 @@
 &lt;h3&gt;各齒輪之間必須互相配合，用180-180/n3+(180-180/n2)*n2/n3)公式算齒輪的轉動角度。&lt;/h3&gt;
 &lt;br/&gt;
 &lt;h2&gt;自評分數&lt;/h2&gt;
-&lt;h3&gt;60分&amp;lt;/h3&lt;/p&gt;</summary><category term="40323212"></category></entry><entry><title>40323212-eighteenthirty</title><link href="./40323212-eighteenthirty.html" rel="alternate"></link><updated>2016-06-23T15:20:18+08:00</updated><author><name>40323212</name></author><id>tag:,2016-06-23:./40323212-eighteenthirty.html</id><summary type="html">&lt;p&gt;cdw11內容規畫 :&lt;br /&gt;
+&lt;h3&gt;60分&amp;lt;/h3&lt;/p&gt;</summary><category term="40323212"></category></entry><entry><title>40323212-fourgears</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323212-fourgears.html" rel="alternate"></link><updated>2016-06-23T20:31:52+08:00</updated><author><name>40323212</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-23:static/blog/40323212-fourgears.html</id><summary type="html">&lt;p&gt;cdw11內容規畫 :&lt;br /&gt;
+
+&lt;h3&gt;網際 2D 正齒輪傳動囓合繪圖&lt;/h3&gt;
+&lt;img src="http://imgur.com/exL6WL2.png"width="100%" /&gt;
+&lt;br/&gt;
+&lt;h2&gt;心得&lt;/h2&gt;
+&lt;h3&gt;各齒輪之間必須互相配合，用180-180/n3+(180-180/n2)*n2/n3)公式算齒輪的轉動角度。&lt;/h3&gt;
+&lt;br/&gt;
+&lt;h2&gt;自評分數&lt;/h2&gt;
+&lt;h3&gt;60分&lt;/h3&gt;&lt;/p&gt;</summary><category term="40323212"></category></entry><entry><title>40323212-eighteenthirty</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323212-eighteenthirty.html" rel="alternate"></link><updated>2016-06-23T20:31:52+08:00</updated><author><name>40323212</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-23:static/blog/40323212-eighteenthirty.html</id><summary type="html">&lt;p&gt;cdw11內容規畫 :&lt;br /&gt;
 
 &lt;h3&gt;自行車傳動 2D 鏈條繪圖 (二)&lt;/h3&gt;
-&lt;img src="http://imgur.com/osTNM8u"&gt;
+&lt;img src="http://imgur.com/WvsfdAl.png"width="100%" /&gt;
 &lt;br/&gt;
 &lt;h2&gt;心得&lt;/h2&gt;
 &lt;h3&gt;鍊與鍊之間配合比較困難，角度跟距離容易產生誤差，需要慢慢測試。&lt;/h3&gt;

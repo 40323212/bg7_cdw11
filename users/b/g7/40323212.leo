@@ -20,10 +20,10 @@
 <v t="leo.20160519154611.7" a="E"><vh>假如要在近端檢視, 使用下列按鈕</vh>
 <v t="leo.20160519154611.8"><vh>@button local pelican</vh></v>
 </v>
-<v t="leo.20160519154611.9" a="E"><vh>@path content/b/g7</vh>
-<v t="leo.20160519154611.10"><vh>@edit 40323212-eighteenthirty.md</vh></v>
-<v t="leo.20160623101418.1"><vh>@edit 40323212-fourgears.md</vh></v>
-<v t="leo.20160623101422.1"><vh>@edit 40323212_期末報告.md</vh></v>
+<v t="leo.20160623203259.1"><vh>@path content/b/g7</vh>
+<v t="leo.20160623203259.2"><vh>@edit 40323212-eighteenthirty.md</vh></v>
+<v t="leo.20160623203259.3"><vh>@edit 40323212-fourgears.md</vh></v>
+<v t="leo.20160623203259.4"><vh>@edit 40323212_期末報告.md</vh></v>
 </v>
 </v>
 </v>
@@ -60,7 +60,7 @@
 <v t="leo.20160519154619.30"><vh>snap_link</vh></v>
 <v t="leo.20160519154619.31"><vh>snap_gear</vh></v>
 </v>
-<v t="leo.20160519154619.32"><vh>@edit bg7_40323212_2.py</vh></v>
+<v t="leo.20160623203401.1"><vh>@edit bg7_40323212_2.py</vh></v>
 <v t="leo.20160519154619.33" a="E"><vh>@path ./../../../</vh>
 <v t="leo.20160519154619.34" a="E"><vh>@clean myflaskapp.py</vh>
 <v t="leo.20160519154619.35"><vh>myflaskapp declarations</vh></v>
@@ -111,7 +111,6 @@ g.es("admin pelican 近端執行完畢")
 
 
 </t>
-<t tx="leo.20160519154611.9"></t>
 <t tx="leo.20160519154619.1"></t>
 <t tx="leo.20160519154619.10">def circle2(x, y, degree=10):
     # 20 為鏈條兩圓距
@@ -1761,5 +1760,6 @@ spur(cx+pr1+pr2+pr2+pr3, cy, m, n3, pa, 180-180/n3+(180-180/n2)*n2/n3)
 &lt;/script&gt;'''
     return outstring</t>
 <t tx="leo.20160623134417.5"></t>
+<t tx="leo.20160623203259.1"></t>
 </tnodes>
 </leo_file>
