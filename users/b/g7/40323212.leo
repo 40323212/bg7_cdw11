@@ -20,15 +20,15 @@
 <v t="leo.20160519154611.7" a="E"><vh>假如要在近端檢視, 使用下列按鈕</vh>
 <v t="leo.20160519154611.8"><vh>@button local pelican</vh></v>
 </v>
-<v t="leo.20160623203259.1"><vh>@path content/b/g7</vh>
-<v t="leo.20160623203259.2"><vh>@edit 40323212-eighteenthirty.md</vh></v>
-<v t="leo.20160623203259.3"><vh>@edit 40323212-fourgears.md</vh></v>
-<v t="leo.20160623203259.4"><vh>@edit 40323212_期末報告.md</vh></v>
+<v t="leo.20160623205630.1" a="E"><vh>@path content/b/g7</vh>
+<v t="leo.20160623205630.2"><vh>@edit 40323212-eighteenthirty.md</vh></v>
+<v t="leo.20160623205630.3"><vh>@edit 40323212-fourgears.md</vh></v>
+<v t="leo.20160623205630.4"><vh>@edit 40323212_期末報告.md</vh></v>
 </v>
 </v>
 </v>
 </v>
-<v t="leo.20160519154619.1" a="E"><vh>wsgi 程式部份</vh>
+<v t="leo.20160519154619.1"><vh>wsgi 程式部份</vh>
 <v t="leo.20160519154619.2" a="E"><vh>@clean bg7_40323212.py</vh>
 <v t="leo.20160519154619.3"><vh>bg7_40323212 declarations</vh></v>
 <v t="leo.20160519154619.4"><vh>a</vh></v>
@@ -61,7 +61,7 @@
 <v t="leo.20160519154619.31"><vh>snap_gear</vh></v>
 </v>
 <v t="leo.20160623203401.1"><vh>@edit bg7_40323212_2.py</vh></v>
-<v t="leo.20160519154619.33" a="E"><vh>@path ./../../../</vh>
+<v t="leo.20160519154619.33"><vh>@path ./../../../</vh>
 <v t="leo.20160519154619.34" a="E"><vh>@clean myflaskapp.py</vh>
 <v t="leo.20160519154619.35"><vh>myflaskapp declarations</vh></v>
 <v t="leo.20160519154619.36"><vh>index</vh></v>
@@ -1760,6 +1760,6 @@ spur(cx+pr1+pr2+pr2+pr3, cy, m, n3, pa, 180-180/n3+(180-180/n2)*n2/n3)
 &lt;/script&gt;'''
     return outstring</t>
 <t tx="leo.20160623134417.5"></t>
-<t tx="leo.20160623203259.1"></t>
+<t tx="leo.20160623205630.1"></t>
 </tnodes>
 </leo_file>
